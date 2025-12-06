@@ -1,0 +1,170 @@
+.advocacySection {
+  background-color: white;
+  padding: 6rem 4rem;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.leftContent {
+  position: relative;
+}
+
+.imageWrapper {
+  position: relative;
+  border-radius: 1.5rem;
+  overflow: visible;
+}
+
+.constitutionImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 1.5rem;
+}
+
+.statsCards {
+  position: absolute;
+  bottom: -2rem;
+  left: 2rem;
+  right: 2rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.statCard {
+  flex: 1;
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  color: white;
+}
+
+.statNumber {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.statLabel {
+  font-size: 0.875rem;
+  opacity: 0.9;
+}
+
+.rightContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 2rem;
+}
+
+.sectionLabel {
+  font-size: 0.875rem;
+  color: #666;
+  letter-spacing: 0.05em;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sectionLabel::before {
+  content: '';
+  width: 60px;
+  height: 1px;
+  background-color: #000;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000;
+  margin: 0;
+}
+
+.description {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #333;
+  margin: 0;
+}
+
+.description strong {
+  font-weight: 600;
+  color: #000;
+}
+
+.consultationButton {
+  background-color: #000;
+  color: white;
+  text-decoration: none;
+  padding: 1.25rem 2.5rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-align: center;
+  width: fit-content;
+  margin-top: 1rem;
+}
+
+.consultationButton:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1024px) {
+  .advocacySection {
+    padding: 5rem 2rem;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .rightContent {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .advocacySection {
+    padding: 4rem 1.5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .statsCards {
+    flex-direction: column;
+    position: static;
+    margin-top: 1.5rem;
+  }
+
+  .statCard {
+    width: 100%;
+  }
+
+  .consultationButton {
+    width: 100%;
+  }
+}

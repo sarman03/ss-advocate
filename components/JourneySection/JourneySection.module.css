@@ -1,0 +1,91 @@
+.journeySection {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/journey-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem 2rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.title {
+  color: white;
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.2;
+  max-width: 600px;
+}
+
+.storyButton {
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.storyButton:hover {
+  background-color: white;
+  color: black;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .journeySection {
+    padding: 3rem 1rem;
+  }
+
+  .content {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    max-width: 100%;
+  }
+
+  .storyButton {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    text-align: center;
+  }
+}
