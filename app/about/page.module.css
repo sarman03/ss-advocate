@@ -1,0 +1,86 @@
+.main {
+  min-height: 100vh;
+  position: relative;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* Background image - add your gavel/law books image to public folder */
+  background-color: #0a0a0a;
+  background-image: url('/about-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.title {
+  color: white;
+  font-size: 6rem;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  letter-spacing: 0.02em;
+}
+
+.reviewButton {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  background-color: transparent;
+  color: white;
+  padding: 1rem 2.5rem;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+
+.reviewButton:hover {
+  background-color: white;
+  color: black;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 4.5rem;
+  }
+
+  .reviewButton {
+    bottom: 2rem;
+    right: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 3rem;
+    padding: 0 1rem;
+  }
+
+  .reviewButton {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    padding: 0.875rem 2rem;
+    font-size: 0.9rem;
+  }
+}
