@@ -1,19 +1,21 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.container}>
-        <div className={styles.logo}>
-          <div className={styles.logoIcon}>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
-              <path d="M8 12h8M12 8v8" stroke="currentColor" strokeWidth="2"/>
-            </svg>
-          </div>
-          <span className={styles.logoText}>S.S. Advocates Law Firm</span>
-        </div>
+        <Link href="/" className={styles.logo}>
+          <Image
+            src="/logos/Asset 3@2x.png"
+            alt="S.S. Advocates Law Firm"
+            width={200}
+            height={50}
+            className={styles.logoImage}
+            priority
+          />
+        </Link>
 
         <div className={styles.navRight}>
           <div className={styles.navLinks}>
