@@ -1,10 +1,10 @@
 .footer {
-  background-color: #1a1a1a;
+  background-color: #0a0a0a;
   color: white;
 }
 
 .ctaSection {
-  padding: 4rem 4rem 3rem;
+  padding: 6rem 4rem 5rem;
 }
 
 .container {
@@ -16,10 +16,11 @@
 }
 
 .ctaTitle {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 400;
   margin: 0;
   color: white;
+  line-height: 1.2;
 }
 
 .ctaButton {
@@ -48,14 +49,13 @@
 }
 
 .footerContent {
-  padding: 3rem 4rem 4rem;
+  padding: 5rem 4rem 6rem;
 }
 
 .footerGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  margin-bottom: 3rem;
+  gap: 6rem;
 }
 
 .companyInfo {
@@ -86,12 +86,12 @@
 }
 
 .tagline {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.65);
   font-style: italic;
   margin: 0;
-  max-width: 450px;
+  max-width: 500px;
 }
 
 .addressInfo {
@@ -100,25 +100,29 @@
 }
 
 .address {
-  font-size: 1.25rem;
+  font-size: 1.375rem;
   line-height: 1.8;
   color: white;
   margin: 0;
+  font-weight: 400;
 }
 
 .socialLinks {
   display: flex;
   gap: 1.5rem;
+  margin-top: 4rem;
 }
 
 .socialIcon {
-  width: 48px;
-  height: 48px;
+  width: 52px;
+  height: 52px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
 }
 
 .socialIcon:hover {
