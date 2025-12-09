@@ -6,7 +6,7 @@ export default function ApproachSection() {
       <div className={styles.container}>
         <div className={styles.leftContent}>
           <div className={styles.imageWrapper}>
-            <img src="/lawyer-image.jpg" alt="Professional lawyer" className={styles.lawyerImage} />
+            <img src="/home/services page/img4.jpg" alt="Professional lawyer" className={styles.lawyerImage} />
             <div className={styles.statsCard}>
               <div className={styles.statsHeader}>
                 <span className={styles.statsIcon}>📈</span>

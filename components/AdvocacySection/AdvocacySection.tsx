@@ -7,7 +7,7 @@ export default function AdvocacySection() {
       <div className={styles.container}>
         <div className={styles.leftContent}>
           <div className={styles.imageWrapper}>
-            <img src="/constitution-book.jpg" alt="Constitution of India" className={styles.constitutionImage} />
+            <img src="/home/Indian constitution.jpeg" alt="Constitution of India" className={styles.constitutionImage} />
             <div className={styles.statsCards}>
               <div className={styles.statCard} style={{ backgroundColor: '#000' }}>
                 <div className={styles.statNumber}>30+</div>

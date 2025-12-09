@@ -9,10 +9,10 @@
   align-items: center;
   position: relative;
   padding: 0 2rem;
-  /* Background image will be added here */
+  background-image: url('/home/img1.jpg');
   background-color: #1a1a1a;
-  background-size: cover;
-  background-position: center;
+  background-size: 110%;
+  background-position: center 2%;
   background-repeat: no-repeat;
 }
 

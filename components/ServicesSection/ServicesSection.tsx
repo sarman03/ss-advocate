@@ -20,7 +20,7 @@ export default function ServicesSection() {
         <div className={styles.servicesGrid}>
           <Link href="/services" className={`${styles.serviceCard} ${styles.cardLarge}`}>
             <div className={styles.cardImage}>
-              <img src="/property-services.jpg" alt="Property & Registration Services" />
+              <img src="/home/services page/img1.jpeg" alt="Property & Registration Services" />
             </div>
             <div className={styles.cardContent}>
               <h3 className={styles.cardTitle}>Property & Registration Services</h3>
@@ -30,7 +30,7 @@ export default function ServicesSection() {
 
           <Link href="/services" className={styles.serviceCard}>
             <div className={styles.cardImage}>
-              <img src="/family-law.jpg" alt="Family & Personal Legal Support" />
+              <img src="/home/services page/img2.jpeg" alt="Family & Personal Legal Support" />
             </div>
             <div className={styles.cardContent}>
               <h3 className={styles.cardTitle}>Family & Personal Legal Support</h3>
@@ -40,7 +40,7 @@ export default function ServicesSection() {
 
           <Link href="/services" className={styles.serviceCard}>
             <div className={styles.cardImage}>
-              <img src="/legal-drafting.jpg" alt="Legal Drafting & Documentation" />
+              <img src="/home/services page/img3.jpg" alt="Legal Drafting & Documentation" />
             </div>
             <div className={styles.cardContent}>
               <h3 className={styles.cardTitle}>Legal Drafting & Documentation</h3>
