@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar/Navbar';
 import Footer from '@/components/Footer/Footer';
 import styles from './page.module.css';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function Services() {
   const fadeInUp = {
@@ -66,7 +67,7 @@ export default function Services() {
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.8, delay: 0.3 }}
             >
-              <div className={styles.serviceCard}>
+              <Link href="/services/property-registration" className={styles.serviceCard}>
                 <div className={styles.serviceImageWrapper}>
                   <img src="/services/boxes/box1.jpeg" alt="Property & Registration Services" className={styles.serviceImage} />
                 </div>
@@ -81,9 +82,9 @@ export default function Services() {
                   </div>
                   <p className={styles.serviceDescription}>for-registry-sale-deed-gift-deed-poa-title-verification-mutation</p>
                 </div>
-              </div>
+              </Link>
 
-              <div className={styles.serviceCard}>
+              <Link href="/services/family-legal-support" className={styles.serviceCard}>
                 <div className={styles.serviceImageWrapper}>
                   <img src="/services/boxes/box2.jpeg" alt="Family & Personal Legal Support" className={styles.serviceImage} />
                 </div>
@@ -98,9 +99,9 @@ export default function Services() {
                   </div>
                   <p className={styles.serviceDescription}>for-court-marriage-marriage-registration-family-settlements-adoption-deeds</p>
                 </div>
-              </div>
+              </Link>
 
-              <div className={styles.serviceCard}>
+              <Link href="/services/legal-drafting" className={styles.serviceCard}>
                 <div className={styles.serviceImageWrapper}>
                   <img src="/services/boxes/box3.jpg" alt="Legal Drafting & Documentation" className={styles.serviceImage} />
                 </div>
@@ -115,9 +116,9 @@ export default function Services() {
                   </div>
                   <p className={styles.serviceDescription}>for-agreements-affidavits-authority-letters-wills-partnership-deeds</p>
                 </div>
-              </div>
+              </Link>
 
-              <div className={styles.serviceCard}>
+              <Link href="/services/dispute-resolution" className={styles.serviceCard}>
                 <div className={styles.serviceImageWrapper}>
                   <img src="/services/boxes/box4.jpeg" alt="Dispute Resolution & Litigation" className={styles.serviceImage} />
                 </div>
@@ -132,9 +133,9 @@ export default function Services() {
                   </div>
                   <p className={styles.serviceDescription}>for-civil-disputes-property-litigation-cheque-bounce-fir-complaint-guidance</p>
                 </div>
-              </div>
+              </Link>
 
-              <div className={styles.serviceCard}>
+              <Link href="/services/advisory-consultation" className={styles.serviceCard}>
                 <div className={styles.serviceImageWrapper}>
                   <img src="/services/boxes/box5.jpg" alt="Advisory & Consultation Services" className={styles.serviceImage} />
                 </div>
@@ -149,9 +150,9 @@ export default function Services() {
                   </div>
                   <p className={styles.serviceDescription}>for-legal-guidance-case-evaluation-property-risk-checks-document-clarification</p>
                 </div>
-              </div>
+              </Link>
 
-              <div className={styles.serviceCard}>
+              <Link href="/services/compliance-verification" className={styles.serviceCard}>
                 <div className={styles.serviceImageWrapper}>
                   <img src="/services/boxes/box6.jpg" alt="Compliance & Verification Services" className={styles.serviceImage} />
                 </div>
@@ -166,7 +167,7 @@ export default function Services() {
                   </div>
                   <p className={styles.serviceDescription}>for-builder-buyer-agreement-review-document-verification-due-diligence</p>
                 </div>
-              </div>
+              </Link>
             </motion.div>
           </div>
         </div>
