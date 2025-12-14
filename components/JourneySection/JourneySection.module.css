@@ -1,15 +1,16 @@
 .journeySection {
-  min-height: 100vh;
+  min-height: 120vh;
+  height: 120vh;
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   background-image: url('/home/journey.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   z-index: 3;
-  padding: 4rem 2rem;
+  padding: 0 2rem 4rem 2rem;
 }
 
 .overlay {
@@ -31,7 +32,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  padding: 0 2rem;
 }
 
 .title {
@@ -40,7 +40,7 @@
   font-weight: 400;
   margin: 0;
   line-height: 1.2;
-  max-width: 600px;
+  white-space: nowrap;
 }
 
 .storyButton {

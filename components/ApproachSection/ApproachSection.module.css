@@ -9,7 +9,7 @@
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -58,7 +58,9 @@
 }
 
 .statsIcon {
-  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .statsLabel {
@@ -112,7 +114,7 @@
 
 .title {
   font-size: 2.75rem;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.2;
   color: #000;
   margin: 0;
@@ -145,21 +147,21 @@
 }
 
 .checkmark {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   background-color: #000;
   color: white;
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.875rem;
+  font-size: 1rem;
   flex-shrink: 0;
 }
 
 .featureText {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.5;
   color: #333;
 }
