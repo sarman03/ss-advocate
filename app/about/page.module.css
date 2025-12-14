@@ -10,13 +10,15 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  position: relative;
+  position: sticky;
+  top: 0;
   padding-top: 120px;
   background-color: #0a0a0a;
   background-image: url('/about/img1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 1;
 }
 
 .hero::before {
@@ -65,6 +67,8 @@
 .journeySection {
   background-color: white;
   padding: 8rem 4rem;
+  position: relative;
+  z-index: 3;
 }
 
 .journeyContainer {
@@ -133,6 +137,8 @@
 .principlesSection {
   background-color: #f5f5f5;
   padding: 8rem 4rem;
+  position: relative;
+  z-index: 3;
 }
 
 .principlesContainer {
@@ -194,6 +200,8 @@
 .statsRibbon {
   background-color: #000;
   padding: 5rem 4rem;
+  position: relative;
+  z-index: 3;
 }
 
 .statsContainer {
@@ -230,6 +238,8 @@
   background-color: white;
   padding: 8rem 4rem;
   min-height: 110vh;
+  position: relative;
+  z-index: 3;
 }
 
 .teamContainer {
