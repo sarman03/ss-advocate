@@ -1,4 +1,7 @@
+'use client';
+
 import styles from './TestimonialsSection.module.css';
+import { motion } from 'framer-motion';
 
 const testimonials = [
   {
@@ -39,16 +42,33 @@ const testimonials = [
 ];
 
 export default function TestimonialsSection() {
+  const fadeInUp = {
+    initial: { opacity: 0, y: 60 },
+    animate: { opacity: 1, y: 0 },
+  };
+
   return (
     <section className={styles.testimonialsSection}>
       <div className={styles.header}>
-        <div className={styles.headerContent}>
+        <motion.div
+          className={styles.headerContent}
+          initial={fadeInUp.initial}
+          whileInView={fadeInUp.animate}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8 }}
+        >
           <p className={styles.sectionLabel}>Testimonials</p>
           <h2 className={styles.title}>Decades of Trust. Proven Results.</h2>
-        </div>
-        <p className={styles.description}>
+        </motion.div>
+        <motion.p
+          className={styles.description}
+          initial={fadeInUp.initial}
+          whileInView={fadeInUp.animate}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+        >
           Whether your case involves a complex corporate matter, personal litigation, or constitutional challenge, our dedication to justice remains absolute. Read what our clients say about our advocacy.
-        </p>
+        </motion.p>
       </div>
 
       <div className={styles.carouselWrapper}>

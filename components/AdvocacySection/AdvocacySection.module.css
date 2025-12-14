@@ -1,12 +1,12 @@
 .advocacySection {
   background-color: white;
-  padding: 6rem 4rem;
+  padding: 5.5rem 4rem;
   position: relative;
   z-index: 3;
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -22,31 +22,45 @@
   position: relative;
   border-radius: 1.5rem;
   overflow: visible;
+  max-height: 650px;
 }
 
 .constitutionImage {
   width: 100%;
-  height: auto;
+  height: 100%;
+  max-height: 650px;
   display: block;
   border-radius: 1.5rem;
+  object-fit: cover;
 }
 
 .statsCards {
   position: absolute;
-  bottom: -2rem;
-  left: 2rem;
-  right: 2rem;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   gap: 1.5rem;
+  max-width: 600px;
+  align-items: flex-end;
 }
 
 .statCard {
   flex: 1;
-  padding: 2rem 1.5rem;
+  padding: 2rem 2rem;
   border-radius: 1rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   text-align: center;
   color: white;
+  min-width: 180px;
+}
+
+.statCard:first-child {
+  margin-bottom: 2rem;
+}
+
+.statCard:last-child {
+  margin-top: 2rem;
 }
 
 .statNumber {
@@ -56,8 +70,9 @@
 }
 
 .statLabel {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   opacity: 0.9;
+  white-space: nowrap;
 }
 
 .rightContent {

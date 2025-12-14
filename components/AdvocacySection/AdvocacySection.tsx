@@ -1,11 +1,25 @@
+'use client';
+
 import Link from 'next/link';
 import styles from './AdvocacySection.module.css';
+import { motion } from 'framer-motion';
 
 export default function AdvocacySection() {
+  const fadeInUp = {
+    initial: { opacity: 0, y: 60 },
+    animate: { opacity: 1, y: 0 },
+  };
+
   return (
     <section className={styles.advocacySection}>
       <div className={styles.container}>
-        <div className={styles.leftContent}>
+        <motion.div
+          className={styles.leftContent}
+          initial={fadeInUp.initial}
+          whileInView={fadeInUp.animate}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8 }}
+        >
           <div className={styles.imageWrapper}>
             <img src="/home/Indian constitution.jpeg" alt="Constitution of India" className={styles.constitutionImage} />
             <div className={styles.statsCards}>
@@ -19,9 +33,15 @@ export default function AdvocacySection() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
 
-        <div className={styles.rightContent}>
+        <motion.div
+          className={styles.rightContent}
+          initial={fadeInUp.initial}
+          whileInView={fadeInUp.animate}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+        >
           <p className={styles.sectionLabel}>Your Advocate. Your Victory.</p>
           <h2 className={styles.title}>Relentless Advocacy for Your Rights</h2>
           <p className={styles.description}>
@@ -30,7 +50,7 @@ export default function AdvocacySection() {
           <Link href="/contact" className={styles.consultationButton}>
             Schedule Your Confidential Consultation
           </Link>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

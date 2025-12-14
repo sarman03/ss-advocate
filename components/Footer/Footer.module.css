@@ -4,7 +4,7 @@
 }
 
 .ctaSection {
-  padding: 6rem 4rem 5rem;
+  padding: 4rem 4rem 3.5rem;
 }
 
 .container {
@@ -16,7 +16,7 @@
 }
 
 .ctaTitle {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 400;
   margin: 0;
   color: white;
@@ -26,10 +26,10 @@
 .ctaButton {
   color: white;
   text-decoration: none;
-  padding: 1rem 2.5rem;
+  padding: 0.875rem 2rem;
   border: 1px solid white;
   border-radius: 50px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
   transition: all 0.3s ease;
   white-space: nowrap;
@@ -84,7 +84,7 @@
 }
 
 .tagline {
-  font-size: 1.125rem;
+  font-size: 0.95rem;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.65);
   font-style: italic;
@@ -98,7 +98,7 @@
 }
 
 .address {
-  font-size: 1.375rem;
+  font-size: 1.125rem;
   line-height: 1.8;
   color: white;
   margin: 0;
