@@ -44,7 +44,7 @@ export default function ServicesSection() {
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <Link href="/services" className={`${styles.serviceCard} ${styles.cardLarge}`}>
+          <Link href="/services/property-registration" className={`${styles.serviceCard} ${styles.cardLarge}`}>
             <div className={styles.cardImage}>
               <img src="/home/services page/img1.jpeg" alt="Property & Registration Services" />
             </div>
@@ -57,7 +57,7 @@ export default function ServicesSection() {
             </div>
           </Link>
 
-          <Link href="/services" className={styles.serviceCard}>
+          <Link href="/services/family-legal-support" className={styles.serviceCard}>
             <div className={styles.cardImage}>
               <img src="/home/services page/img2.jpeg" alt="Family & Personal Legal Support" />
             </div>
@@ -70,7 +70,7 @@ export default function ServicesSection() {
             </div>
           </Link>
 
-          <Link href="/services" className={styles.serviceCard}>
+          <Link href="/services/legal-drafting" className={styles.serviceCard}>
             <div className={styles.cardImage}>
               <img src="/home/services page/img3.jpg" alt="Legal Drafting & Documentation" />
             </div>

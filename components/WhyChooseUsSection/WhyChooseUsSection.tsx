@@ -71,7 +71,7 @@ export default function WhyChooseUsSection() {
             <p className={styles.featureDescription}>
               Our history is defined by successful case resolutions and dedicated advocacy for our clients' best interests.
             </p>
-            <Link href="/services" className={styles.featureLink}>
+            <Link href="/about" className={styles.featureLink}>
               Our process →
             </Link>
           </motion.div>
@@ -95,7 +95,7 @@ export default function WhyChooseUsSection() {
             <p className={styles.featureDescription}>
               We provide informed, strategic guidance, ensuring every decision is made with your ultimate legal goal in mind.
             </p>
-            <Link href="/services" className={styles.featureLink}>
+            <Link href="/about" className={styles.featureLink}>
               Our solutions →
             </Link>
           </motion.div>

@@ -49,9 +49,9 @@ export default function Home() {
               animate={fadeInUp.animate}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <button className={styles.primaryButton}>
+              <a href="mailto:advocatess98@gmail.com" className={styles.primaryButton}>
                 Book an Appointment
-              </button>
+              </a>
               <button className={styles.secondaryButton}>
                 Contact page
               </button>
