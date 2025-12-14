@@ -38,38 +38,67 @@ export default function FamilyLegalSupport() {
         </div>
 
         <div className={styles.content}>
-          <motion.section
-            className={styles.section}
-            initial={fadeInUp.initial}
-            whileInView={fadeInUp.animate}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2>Service Overview</h2>
-            <p>Content will be added here...</p>
-          </motion.section>
+          <div className={styles.contentWrapper}>
+            <motion.aside
+              className={styles.sidebar}
+              initial={fadeInUp.initial}
+              whileInView={fadeInUp.animate}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.8 }}
+            >
+              <div className={styles.sidebarSection}>
+                <h3 className={styles.sidebarTitle}>Key Services</h3>
+                <ul className={styles.servicesList}>
+                  <li>Divorce and Separation Filings</li>
+                  <li>Child Custody and Visitation Rights</li>
+                  <li>Financial Support (Maintenance and Alimony)</li>
+                  <li>Protection from Domestic Violence</li>
+                  <li>Drafting of Wills and Settling Inheritance</li>
+                </ul>
+              </div>
 
-          <motion.section
-            className={styles.section}
-            initial={fadeInUp.initial}
-            whileInView={fadeInUp.animate}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8, delay: 0.1 }}
-          >
-            <h2>What We Offer</h2>
-            <p>Content will be added here...</p>
-          </motion.section>
+              <div className={styles.sidebarSection}>
+                <h3 className={styles.sidebarTitle}>Why Choose Us</h3>
+                <ul className={styles.servicesList}>
+                  <li><strong>Caring</strong> and Confidential Support</li>
+                  <li><strong>Experienced</strong> in Protecting Children's Interests</li>
+                  <li><strong>Clear</strong> Explanations of Your Legal Rights</li>
+                  <li><strong>Focus</strong> on Fair and Timely Resolutions</li>
+                  <li><strong>Your</strong> Best Interest is Always Our Priority.</li>
+                </ul>
+              </div>
+            </motion.aside>
 
-          <motion.section
-            className={styles.section}
-            initial={fadeInUp.initial}
-            whileInView={fadeInUp.animate}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <h2>Why Choose Us</h2>
-            <p>Content will be added here...</p>
-          </motion.section>
+            <div className={styles.mainContent}>
+              <motion.h2
+                className={styles.contentTitle}
+                initial={fadeInUp.initial}
+                whileInView={fadeInUp.animate}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8 }}
+              >
+                Family & Personal Legal Support (Very Detailed)
+              </motion.h2>
+              <div className={styles.contentText}>
+                <motion.p
+                  initial={fadeInUp.initial}
+                  whileInView={fadeInUp.animate}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{ duration: 0.8, delay: 0.1 }}
+                >
+                  Personal legal procedures often require specific documents, correct affidavits, and step-by-step compliance. We assist with court marriages, marriage registrations, adoption deeds, and family settlements. Our support includes preparing all required affidavits, declarations, identity documentation, witness details, and guiding you through the exact process followed by the authorities.
+                </motion.p>
+                <motion.p
+                  initial={fadeInUp.initial}
+                  whileInView={fadeInUp.animate}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{ duration: 0.8, delay: 0.2 }}
+                >
+                  We make the entire process easier by explaining what documents you need, what steps will be taken, and how long each stage typically takes. Whether it's registering a marriage, preparing a settlement within family members, or completing documentation for adoption, we make the experience smooth, transparent, and free of hurdles.
+                </motion.p>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
       <Footer />

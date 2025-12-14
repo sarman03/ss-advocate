@@ -38,38 +38,67 @@ export default function DisputeResolution() {
         </div>
 
         <div className={styles.content}>
-          <motion.section
-            className={styles.section}
-            initial={fadeInUp.initial}
-            whileInView={fadeInUp.animate}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2>Service Overview</h2>
-            <p>Content will be added here...</p>
-          </motion.section>
+          <div className={styles.contentWrapper}>
+            <motion.aside
+              className={styles.sidebar}
+              initial={fadeInUp.initial}
+              whileInView={fadeInUp.animate}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.8 }}
+            >
+              <div className={styles.sidebarSection}>
+                <h3 className={styles.sidebarTitle}>Key Services</h3>
+                <ul className={styles.servicesList}>
+                  <li>Legal Representation in Civil Courts</li>
+                  <li>Resolving Business and Contract Disputes</li>
+                  <li>Mediation and Negotiation to avoid court</li>
+                  <li>Recovering Money Owed (Debt Recovery)</li>
+                  <li>Stopping Unfair Actions (Injunctions)</li>
+                </ul>
+              </div>
 
-          <motion.section
-            className={styles.section}
-            initial={fadeInUp.initial}
-            whileInView={fadeInUp.animate}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8, delay: 0.1 }}
-          >
-            <h2>What We Offer</h2>
-            <p>Content will be added here...</p>
-          </motion.section>
+              <div className={styles.sidebarSection}>
+                <h3 className={styles.sidebarTitle}>Why Choose Us</h3>
+                <ul className={styles.servicesList}>
+                  <li><strong>30 Years</strong> of Courtroom Experience</li>
+                  <li><strong>Strong, Clear</strong> Legal Strategy</li>
+                  <li><strong>Ability</strong> to Handle Complex Cases</li>
+                  <li><strong>Focus</strong> on Fast and Effective Solutions</li>
+                  <li><strong>Decisive</strong> Results for Your Case</li>
+                </ul>
+              </div>
+            </motion.aside>
 
-          <motion.section
-            className={styles.section}
-            initial={fadeInUp.initial}
-            whileInView={fadeInUp.animate}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <h2>Why Choose Us</h2>
-            <p>Content will be added here...</p>
-          </motion.section>
+            <div className={styles.mainContent}>
+              <motion.h2
+                className={styles.contentTitle}
+                initial={fadeInUp.initial}
+                whileInView={fadeInUp.animate}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8 }}
+              >
+                Dispute Resolution & Litigation
+              </motion.h2>
+              <div className={styles.contentText}>
+                <motion.p
+                  initial={fadeInUp.initial}
+                  whileInView={fadeInUp.animate}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{ duration: 0.8, delay: 0.1 }}
+                >
+                  When a legal issue arises, the right approach can prevent bigger problems later. We assist with civil disputes, property conflicts, cheque bounce cases, builder-buyer issues, and general legal disagreements. Our services include drafting legal notices, reviewing the situation, explaining your available options, and guiding you through the correct legal process.
+                </motion.p>
+                <motion.p
+                  initial={fadeInUp.initial}
+                  whileInView={fadeInUp.animate}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{ duration: 0.8, delay: 0.2 }}
+                >
+                  We help you understand what documents are needed, what timelines may apply, and what outcomes you can expect. Whether it's a disagreement over property, delayed possession from a builder, or a cheque bounce matter, we focus on providing practical, step-by-step solutions that genuinely help resolve the issue
+                </motion.p>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
       <Footer />

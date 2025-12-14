@@ -38,38 +38,67 @@ export default function LegalDrafting() {
         </div>
 
         <div className={styles.content}>
-          <motion.section
-            className={styles.section}
-            initial={fadeInUp.initial}
-            whileInView={fadeInUp.animate}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2>Service Overview</h2>
-            <p>Content will be added here...</p>
-          </motion.section>
+          <div className={styles.contentWrapper}>
+            <motion.aside
+              className={styles.sidebar}
+              initial={fadeInUp.initial}
+              whileInView={fadeInUp.animate}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.8 }}
+            >
+              <div className={styles.sidebarSection}>
+                <h3 className={styles.sidebarTitle}>Key Services</h3>
+                <ul className={styles.servicesList}>
+                  <li>Writing Simple, Clear Business Contracts</li>
+                  <li>Drafting Affidavits and Sworn Statements</li>
+                  <li>Creating Partnership and Joint Venture Agreements</li>
+                  <li>Protecting Business Secrets (NDAs)</li>
+                  <li>Reviewing Your Existing Legal Papers</li>
+                </ul>
+              </div>
 
-          <motion.section
-            className={styles.section}
-            initial={fadeInUp.initial}
-            whileInView={fadeInUp.animate}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8, delay: 0.1 }}
-          >
-            <h2>What We Offer</h2>
-            <p>Content will be added here...</p>
-          </motion.section>
+              <div className={styles.sidebarSection}>
+                <h3 className={styles.sidebarTitle}>Why Choose Us</h3>
+                <ul className={styles.servicesList}>
+                  <li><strong>Accurate</strong> Drafting to Avoid Mistakes</li>
+                  <li><strong>Documents</strong> that Clearly Protect Your Interests</li>
+                  <li><strong>Custom-Made</strong> for Your Specific Needs</li>
+                  <li><strong>Fast</strong> and Reliable Completion</li>
+                  <li><strong>Reduces</strong> the Risk of Future Legal Problems</li>
+                </ul>
+              </div>
+            </motion.aside>
 
-          <motion.section
-            className={styles.section}
-            initial={fadeInUp.initial}
-            whileInView={fadeInUp.animate}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <h2>Why Choose Us</h2>
-            <p>Content will be added here...</p>
-          </motion.section>
+            <div className={styles.mainContent}>
+              <motion.h2
+                className={styles.contentTitle}
+                initial={fadeInUp.initial}
+                whileInView={fadeInUp.animate}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8 }}
+              >
+                Legal Drafting & Documentation (Very Detailed)
+              </motion.h2>
+              <div className={styles.contentText}>
+                <motion.p
+                  initial={fadeInUp.initial}
+                  whileInView={fadeInUp.animate}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{ duration: 0.8, delay: 0.1 }}
+                >
+                  Every legal document must be drafted carefully to ensure clarity, enforceability, and future security — and that is exactly what we focus on. We prepare a wide range of documents including agreements, affidavits, wills, partnership deeds, declarations, authority letters, rent agreements, and more. Each draft is created only after understanding your requirements, the purpose of the document, and the legal aspects involved.
+                </motion.p>
+                <motion.p
+                  initial={fadeInUp.initial}
+                  whileInView={fadeInUp.animate}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{ duration: 0.8, delay: 0.2 }}
+                >
+                  We ensure correct structure, proper clauses, accurate details, and legally accepted wording. Our drafting avoids ambiguity, unnecessary complications, or errors that can cause disputes later. Whether you need a simple affidavit or a detailed agreement, we prepare the document in a clean, professional, and legally appropriate format.
+                </motion.p>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
       <Footer />

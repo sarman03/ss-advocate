@@ -38,38 +38,67 @@ export default function PropertyRegistration() {
         </div>
 
         <div className={styles.content}>
-          <motion.section
-            className={styles.section}
-            initial={fadeInUp.initial}
-            whileInView={fadeInUp.animate}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2>Service Overview</h2>
-            <p>Content will be added here...</p>
-          </motion.section>
+          <div className={styles.contentWrapper}>
+            <motion.aside
+              className={styles.sidebar}
+              initial={fadeInUp.initial}
+              whileInView={fadeInUp.animate}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.8 }}
+            >
+              <div className={styles.sidebarSection}>
+                <h3 className={styles.sidebarTitle}>Key Services</h3>
+                <ul className={styles.servicesList}>
+                  <li>Checking Property Titles (Making sure the seller is the legal owner)</li>
+                  <li>Drafting and Registering Sale/Gift Documents</li>
+                  <li>Advice on Registration Fees and Stamp Duty</li>
+                  <li>Handling Power of Attorney Documents</li>
+                  <li>Working with the Government Sub-Registrar Offices</li>
+                </ul>
+              </div>
 
-          <motion.section
-            className={styles.section}
-            initial={fadeInUp.initial}
-            whileInView={fadeInUp.animate}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8, delay: 0.1 }}
-          >
-            <h2>What We Offer</h2>
-            <p>Content will be added here...</p>
-          </motion.section>
+              <div className={styles.sidebarSection}>
+                <h3 className={styles.sidebarTitle}>Why Choose Us</h3>
+                <ul className={styles.servicesList}>
+                  <li>We do <strong>Thorough Checks</strong> to prevent future problems.</li>
+                  <li><strong>Simple, Clear</strong> process guidance.</li>
+                  <li><strong>Honest</strong> and Transparent Fees.</li>
+                  <li><strong>Guaranteed</strong> Error-Free Registration.</li>
+                  <li><strong>30 Years</strong> of Experience in Property Law</li>
+                </ul>
+              </div>
+            </motion.aside>
 
-          <motion.section
-            className={styles.section}
-            initial={fadeInUp.initial}
-            whileInView={fadeInUp.animate}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <h2>Why Choose Us</h2>
-            <p>Content will be added here...</p>
-          </motion.section>
+            <div className={styles.mainContent}>
+              <motion.h2
+                className={styles.contentTitle}
+                initial={fadeInUp.initial}
+                whileInView={fadeInUp.animate}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8 }}
+              >
+                Property & Registration Services
+              </motion.h2>
+              <div className={styles.contentText}>
+                <motion.p
+                  initial={fadeInUp.initial}
+                  whileInView={fadeInUp.animate}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{ duration: 0.8, delay: 0.1 }}
+                >
+                  Property registration involves multiple steps, documents, and legal requirements — and we assist you throughout the entire process. Our service includes preparing and reviewing all required documents such as sale deeds, gift deeds, relinquishment deeds, and Power of Attorney (GPA/SPA). We guide you on stamp duty, registration charges, ID proofs, and supporting documents needed as per Sub-Registrar Office rules.
+                </motion.p>
+                <motion.p
+                  initial={fadeInUp.initial}
+                  whileInView={fadeInUp.animate}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{ duration: 0.8, delay: 0.2 }}
+                >
+                  We help you schedule appointments, complete biometric verification, and ensure all details in the documents match government records. For transfers within family, buying or selling a property, or registering any type of deed, we make sure the process remains smooth, accurate, and legally compliant. Our goal is to save your time, prevent errors, and ensure your registry is completed without stress or confusion.
+                </motion.p>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
       <Footer />
