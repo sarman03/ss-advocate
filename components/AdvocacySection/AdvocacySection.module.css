@@ -1,6 +1,8 @@
 .advocacySection {
   background-color: white;
   padding: 6rem 4rem;
+  position: relative;
+  z-index: 3;
 }
 
 .container {

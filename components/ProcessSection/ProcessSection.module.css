@@ -1,6 +1,8 @@
 .processSection {
   background-color: #1a1a1a;
   padding: 6rem 4rem;
+  position: relative;
+  z-index: 3;
 }
 
 .container {
