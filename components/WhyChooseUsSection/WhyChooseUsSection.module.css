@@ -146,6 +146,11 @@
     padding: 4rem 1.5rem;
   }
 
+  .header {
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+
   .title {
     font-size: 2rem;
   }
@@ -154,8 +159,32 @@
     font-size: 1rem;
   }
 
-  .header {
-    margin-bottom: 3rem;
+  .feature {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0 1rem;
+    align-items: start;
+  }
+
+  .featureHeader {
+    display: contents;
+  }
+
+  .iconWrapper {
+    grid-row: 1 / span 3;
+  }
+
+  .featureTitle {
+    grid-column: 2;
+    margin-bottom: 0.5rem;
+  }
+
+  .featureDescription {
+    grid-column: 2;
+  }
+
+  .featureLink {
+    grid-column: 2;
   }
 }
 

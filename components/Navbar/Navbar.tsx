@@ -43,7 +43,7 @@ export default function Navbar() {
             </Link>
 
             <button
-              className={styles.hamburger}
+              className={`${styles.hamburger} ${mobileMenuOpen ? styles.hamburgerOpen : ''}`}
               onClick={toggleMobileMenu}
               aria-label="Toggle menu"
             >
@@ -57,25 +57,6 @@ export default function Navbar() {
 
       {/* Mobile Menu Overlay */}
       <div className={`${styles.mobileMenu} ${mobileMenuOpen ? styles.mobileMenuOpen : ''}`}>
-        <div className={styles.mobileMenuHeader}>
-          <Link href="/" className={styles.mobileLogo} onClick={closeMobileMenu}>
-            <Image
-              src="/logos/Asset 3@2x.png"
-              alt="S.S. Advocates Law Firm"
-              width={200}
-              height={50}
-              className={styles.logoImage}
-            />
-          </Link>
-          <button
-            className={styles.closeButton}
-            onClick={closeMobileMenu}
-            aria-label="Close menu"
-          >
-            ✕
-          </button>
-        </div>
-
         <div className={styles.mobileMenuContent}>
           <Link href="/" className={styles.mobileNavLink} onClick={closeMobileMenu}>
             Home

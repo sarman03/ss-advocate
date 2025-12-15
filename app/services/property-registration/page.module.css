@@ -153,6 +153,14 @@
     gap: 40px;
   }
 
+  .sidebar {
+    order: 2;
+  }
+
+  .mainContent {
+    order: 1;
+  }
+
   .contentTitle {
     font-size: 28px;
   }
