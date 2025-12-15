@@ -179,18 +179,18 @@ export default function About() {
 
               <div className={styles.advocateCard}>
                 <div className={styles.advocateImage}>
-                  {/* Image placeholder */}
+                  <img src="/about/team/sunil_kumar.jpeg" alt="Sunil Kumar" className={styles.advocateImg} />
                 </div>
                 <h3 className={styles.advocateName}>Sunil Kumar</h3>
-                <p className={styles.advocateTitle}>Plaintiff</p>
+                <p className={styles.advocateTitle}>Munshi</p>
               </div>
 
               <div className={styles.advocateCard}>
                 <div className={styles.advocateImage}>
-                  {/* Image placeholder */}
+                  <img src="/about/team/amberlal.jpeg" alt="Amber Lal" className={styles.advocateImg} />
                 </div>
                 <h3 className={styles.advocateName}>Amber Lal</h3>
-                <p className={styles.advocateTitle}>Plaintiff</p>
+                <p className={styles.advocateTitle}>Munshi</p>
               </div>
             </motion.div>
           </div>

@@ -80,7 +80,7 @@ export default function Services() {
                       </svg>
                     </button>
                   </div>
-                  <p className={styles.serviceDescription}>for registry, sale deed, gift deed, poa, title verification, mutation</p>
+                  <p className={styles.serviceDescription}>for registry, sale deed, gift deed, title verification</p>
                 </div>
               </Link>
 

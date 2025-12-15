@@ -51,7 +51,7 @@ export default function ServicesSection() {
             <div className={styles.cardContent}>
               <div className={styles.cardText}>
                 <h3 className={styles.cardTitle}>Property & Registration Services</h3>
-                <p className={styles.cardDescription}>for registry, sale deed, gift deed, poa, title verification, mutation</p>
+                <p className={styles.cardDescription}>for registry, sale deed, gift deed, title verification</p>
               </div>
               <div className={styles.cardArrow}>→</div>
             </div>
