@@ -207,3 +207,30 @@
     padding: 2rem;
   }
 }
+
+@media (max-width: 480px) {
+  .testimonialsSection {
+    padding: 3rem 0;
+  }
+
+  .header {
+    padding: 0 1rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .testimonialCard {
+    min-width: 280px;
+    padding: 1.5rem;
+  }
+
+  .testimonialText {
+    font-size: 0.95rem;
+  }
+}

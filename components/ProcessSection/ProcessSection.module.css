@@ -112,6 +112,11 @@
     padding: 4rem 1.5rem;
   }
 
+  .leftContent {
+    text-align: center;
+    align-items: center;
+  }
+
   .title {
     font-size: 2.5rem;
   }
@@ -132,5 +137,31 @@
     width: 100%;
     max-width: 300px;
     text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .processSection {
+    padding: 3rem 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .processCard {
+    padding: 1.25rem;
+  }
+
+  .cardTitle {
+    font-size: 1.1rem;
+  }
+
+  .cardDescription {
+    font-size: 0.95rem;
   }
 }

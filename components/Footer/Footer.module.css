@@ -180,3 +180,29 @@
     gap: 2rem;
   }
 }
+
+@media (max-width: 480px) {
+  .ctaSection {
+    padding: 2.5rem 1rem 1.5rem;
+  }
+
+  .footerContent {
+    padding: 2rem 1rem 2.5rem;
+  }
+
+  .ctaTitle {
+    font-size: 1.75rem;
+  }
+
+  .address {
+    font-size: 0.95rem;
+  }
+
+  .tagline {
+    font-size: 0.9rem;
+  }
+
+  .socialLinks {
+    margin-top: 2.5rem;
+  }
+}

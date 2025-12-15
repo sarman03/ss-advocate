@@ -207,6 +207,18 @@
     padding: 4rem 1rem;
   }
 
+  .header {
+    text-align: center;
+  }
+
+  .headerLeft {
+    align-items: center;
+  }
+
+  .sectionLabel {
+    justify-content: center;
+  }
+
   .title {
     font-size: 2rem;
   }
@@ -229,5 +241,35 @@
 
   .cardContent {
     padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .servicesSection {
+    padding: 3rem 1rem;
+  }
+
+  .header {
+    margin-bottom: 3rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .serviceCard {
+    height: 280px;
+  }
+
+  .cardLarge {
+    height: 280px;
+  }
+
+  .cardTitle {
+    font-size: 1.1rem;
+  }
+
+  .cardContent {
+    padding: 1.25rem;
   }
 }

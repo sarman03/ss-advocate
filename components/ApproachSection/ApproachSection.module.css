@@ -187,6 +187,15 @@
     min-height: auto;
   }
 
+  .rightContent {
+    text-align: center;
+    align-items: center;
+  }
+
+  .sectionLabel {
+    justify-content: center;
+  }
+
   .imageWrapper {
     height: 500px;
     max-width: 100%;
@@ -205,5 +214,27 @@
 
   .chart {
     height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .approachSection {
+    padding: 2.5rem 1rem;
+  }
+
+  .imageWrapper {
+    height: 400px;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .philosophy {
+    font-size: 0.95rem;
+  }
+
+  .featureText {
+    font-size: 1rem;
   }
 }

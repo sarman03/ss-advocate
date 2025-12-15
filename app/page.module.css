@@ -12,8 +12,8 @@
   padding: 0 2rem;
   background-image: url('/home/img1.jpg');
   background-color: #1a1a1a;
-  background-size: 110%;
-  background-position: center 2%;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
   z-index: 1;
 }
@@ -25,7 +25,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
 
@@ -36,11 +36,15 @@
   position: relative;
   z-index: 2;
   padding-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .heroTitle {
   color: white;
-  font-size: 2.8rem;
+  font-size: 3.5rem;
   font-weight: 400;
   line-height: 1.2;
   margin-bottom: 2rem;
@@ -49,7 +53,7 @@
 
 .heroSubtitle {
   color: rgba(255, 255, 255, 0.9);
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 3rem;
   max-width: 700px;
@@ -59,6 +63,7 @@
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .primaryButton {
@@ -101,34 +106,59 @@
 
 @media (max-width: 1024px) {
   .heroTitle {
-    font-size: 2.2rem;
+    font-size: 2.8rem;
   }
 
   .heroSubtitle {
-    font-size: 0.95rem;
+    font-size: 1.1rem;
   }
 }
 
 @media (max-width: 768px) {
   .hero {
     padding: 0 1rem;
+    background-size: cover;
+  }
+
+  .heroContent {
+    padding-top: 120px;
   }
 
   .heroTitle {
-    font-size: 1.75rem;
+    font-size: 2.2rem;
   }
 
   .heroSubtitle {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
   }
 
   .heroButtons {
     flex-direction: column;
+    align-items: center;
   }
 
   .primaryButton,
   .secondaryButton {
     width: 100%;
     max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 0 1rem;
+  }
+
+  .heroContent {
+    padding-top: 100px;
+  }
+
+  .heroTitle {
+    font-size: 1.8rem;
+  }
+
+  .heroSubtitle {
+    font-size: 0.95rem;
   }
 }

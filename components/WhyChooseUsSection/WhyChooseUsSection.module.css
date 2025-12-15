@@ -158,3 +158,25 @@
     margin-bottom: 3rem;
   }
 }
+
+@media (max-width: 480px) {
+  .whyChooseUsSection {
+    padding: 3rem 1rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .featureTitle {
+    font-size: 1.25rem;
+  }
+
+  .featureDescription {
+    font-size: 0.95rem;
+  }
+}

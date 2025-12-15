@@ -1,6 +1,6 @@
 .journeySection {
-  min-height: 120vh;
-  height: 120vh;
+  min-height: 110vh;
+  height: 110vh;
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -70,6 +70,8 @@
 @media (max-width: 768px) {
   .journeySection {
     padding: 3rem 1rem;
+    min-height: auto;
+    height: auto;
   }
 
   .content {
@@ -81,6 +83,7 @@
   .title {
     font-size: 2rem;
     max-width: 100%;
+    white-space: normal;
   }
 
   .storyButton {
@@ -88,5 +91,15 @@
     max-width: 300px;
     display: block;
     text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .journeySection {
+    padding: 2rem 1rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
   }
 }

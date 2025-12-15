@@ -163,6 +163,15 @@
     padding: 4rem 1.5rem;
   }
 
+  .rightContent {
+    text-align: center;
+    align-items: center;
+  }
+
+  .sectionLabel {
+    justify-content: center;
+  }
+
   .title {
     font-size: 2rem;
   }
@@ -171,17 +180,44 @@
     font-size: 1rem;
   }
 
+  .imageWrapper {
+    max-height: 500px;
+  }
+
   .statsCards {
     flex-direction: column;
     position: static;
     margin-top: 1.5rem;
+    transform: none;
+    left: auto;
   }
 
   .statCard {
     width: 100%;
+    margin: 0 !important;
+  }
+
+  .statCard:first-child,
+  .statCard:last-child {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
   }
 
   .consultationButton {
     width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .advocacySection {
+    padding: 3rem 1rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .statNumber {
+    font-size: 2.5rem;
   }
 }
