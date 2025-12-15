@@ -9,35 +9,28 @@ const testimonials = [
     rating: 5,
     text: "Both Sushil and Sunil are very knowledgeable courteous and helpful. Very proficient in their work. make it thoda sa long",
     name: "Janendra Sharma",
-    image: "/testimonial-1.jpg"
+    image: "/testimonials/janendra.jpeg"
   },
   {
     id: 2,
     rating: 5,
     text: "Advocate Sushil K. Singh made our company's lease deed registration at the Noida Sub Registrar Office smooth. Thanks to his expert knowledge. Highly recommended.",
     name: "Harsh Singh",
-    image: "/testimonial-2.jpg"
+    image: "/testimonials/harsh.jpeg"
   },
   {
     id: 3,
     rating: 5,
     text: "I got my property work done. My experience has been very good and both the advocates are very good. Every work gets done on time. Special thanks to Advocate SK Singh ji.",
     name: "Urvashi",
-    image: "/testimonial-3.jpg"
+    image: "/testimonials/urvashi.jpeg"
   },
   {
     id: 4,
     rating: 5,
-    text: "Professional and dedicated legal team. They handled my case with utmost care and expertise. Highly satisfied with the outcome.",
-    name: "Rajesh Kumar",
-    image: "/testimonial-1.jpg"
-  },
-  {
-    id: 5,
-    rating: 5,
-    text: "Excellent service and timely resolution of my legal matter. The team is very responsive and knowledgeable.",
-    name: "Priya Sharma",
-    image: "/testimonial-2.jpg"
+    text: "Highly professional and trustworthy property consultants. They handled everything from legal checks to final registration smoothly. Clear advice, honest guidance, and excellent service. Highly recommended!",
+    name: "Himank Singh",
+    image: "/testimonials/himank.jpeg"
   }
 ];
 
