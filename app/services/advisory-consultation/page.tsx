@@ -33,7 +33,7 @@ export default function AdvisoryConsultation() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.8, delay: 0.1 }}
           >
-            for-legal-guidance-case-evaluation-property-risk-checks-document-clarification
+            for legal guidance, case evaluation, property risk checks, document clarification
           </motion.p>
         </div>
 
@@ -54,17 +54,6 @@ export default function AdvisoryConsultation() {
                   <li>Guidance on Business Structure and Legal Setup</li>
                   <li>Review of Official Legal Notices</li>
                   <li>Expert Legal Opinions and Reports</li>
-                </ul>
-              </div>
-
-              <div className={styles.sidebarSection}>
-                <h3 className={styles.sidebarTitle}>Why Choose Us</h3>
-                <ul className={styles.servicesList}>
-                  <li><strong>Proactive</strong> Advice to Prevent Problems</li>
-                  <li><strong>Private</strong> and Highly Confidential Meetings</li>
-                  <li><strong>30 Years</strong> of Experience Behind Every Tip</li>
-                  <li><strong>Simple, Clear</strong> Answers to Complex Questions</li>
-                  <li><strong>Immediate</strong> and Practical Guidance</li>
                 </ul>
               </div>
             </motion.aside>

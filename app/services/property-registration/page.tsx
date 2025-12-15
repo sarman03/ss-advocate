@@ -33,7 +33,7 @@ export default function PropertyRegistration() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.8, delay: 0.1 }}
           >
-            for-registry-sale-deed-gift-deed-poa-title-verification-mutation
+            for registry, sale deed, gift deed, poa, title verification, mutation
           </motion.p>
         </div>
 
@@ -54,17 +54,6 @@ export default function PropertyRegistration() {
                   <li>Advice on Registration Fees and Stamp Duty</li>
                   <li>Handling Power of Attorney Documents</li>
                   <li>Working with the Government Sub-Registrar Offices</li>
-                </ul>
-              </div>
-
-              <div className={styles.sidebarSection}>
-                <h3 className={styles.sidebarTitle}>Why Choose Us</h3>
-                <ul className={styles.servicesList}>
-                  <li>We do <strong>Thorough Checks</strong> to prevent future problems.</li>
-                  <li><strong>Simple, Clear</strong> process guidance.</li>
-                  <li><strong>Honest</strong> and Transparent Fees.</li>
-                  <li><strong>Guaranteed</strong> Error-Free Registration.</li>
-                  <li><strong>30 Years</strong> of Experience in Property Law</li>
                 </ul>
               </div>
             </motion.aside>

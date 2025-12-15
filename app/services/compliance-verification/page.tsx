@@ -33,7 +33,7 @@ export default function ComplianceVerification() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.8, delay: 0.1 }}
           >
-            for-builder-buyer-agreement-review-document-verification-due-diligence
+            for builder buyer agreement review, document verification, due diligence
           </motion.p>
         </div>
 
@@ -54,17 +54,6 @@ export default function ComplianceVerification() {
                   <li>Verifying Full Property Ownership History</li>
                   <li>Checking All Government Approvals (Plans, Licenses)</li>
                   <li>Legal Checks for Mergers and Big Purchases</li>
-                </ul>
-              </div>
-
-              <div className={styles.sidebarSection}>
-                <h3 className={styles.sidebarTitle}>Why Choose Us</h3>
-                <ul className={styles.servicesList}>
-                  <li><strong>Specialized</strong> Knowledge in Builder-Buyer Laws</li>
-                  <li><strong>We Spot</strong> Hidden Risks and Bad Clauses</li>
-                  <li><strong>Complete</strong> Protection from Future Legal Issues</li>
-                  <li><strong>Thorough</strong> Checking of Every Document</li>
-                  <li><strong>Fast</strong> and Dependable Verification Reports</li>
                 </ul>
               </div>
             </motion.aside>

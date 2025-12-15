@@ -80,7 +80,7 @@ export default function Services() {
                       </svg>
                     </button>
                   </div>
-                  <p className={styles.serviceDescription}>for-registry-sale-deed-gift-deed-poa-title-verification-mutation</p>
+                  <p className={styles.serviceDescription}>for registry, sale deed, gift deed, poa, title verification, mutation</p>
                 </div>
               </Link>
 
@@ -97,7 +97,7 @@ export default function Services() {
                       </svg>
                     </button>
                   </div>
-                  <p className={styles.serviceDescription}>for-court-marriage-marriage-registration-family-settlements-adoption-deeds</p>
+                  <p className={styles.serviceDescription}>for court marriage, marriage registration, family settlements, adoption deeds</p>
                 </div>
               </Link>
 
@@ -114,7 +114,7 @@ export default function Services() {
                       </svg>
                     </button>
                   </div>
-                  <p className={styles.serviceDescription}>for-agreements-affidavits-authority-letters-wills-partnership-deeds</p>
+                  <p className={styles.serviceDescription}>for agreements, affidavits, authority letters, wills, partnership deeds</p>
                 </div>
               </Link>
 
@@ -131,7 +131,7 @@ export default function Services() {
                       </svg>
                     </button>
                   </div>
-                  <p className={styles.serviceDescription}>for-civil-disputes-property-litigation-cheque-bounce-fir-complaint-guidance</p>
+                  <p className={styles.serviceDescription}>for civil disputes, property litigation, cheque bounce, fir, complaint guidance</p>
                 </div>
               </Link>
 
@@ -148,7 +148,7 @@ export default function Services() {
                       </svg>
                     </button>
                   </div>
-                  <p className={styles.serviceDescription}>for-legal-guidance-case-evaluation-property-risk-checks-document-clarification</p>
+                  <p className={styles.serviceDescription}>for legal guidance, case evaluation, property risk checks, document clarification</p>
                 </div>
               </Link>
 
@@ -165,7 +165,7 @@ export default function Services() {
                       </svg>
                     </button>
                   </div>
-                  <p className={styles.serviceDescription}>for-builder-buyer-agreement-review-document-verification-due-diligence</p>
+                  <p className={styles.serviceDescription}>for builder buyer agreement review, document verification, due diligence</p>
                 </div>
               </Link>
             </motion.div>

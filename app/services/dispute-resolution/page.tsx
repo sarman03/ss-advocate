@@ -33,7 +33,7 @@ export default function DisputeResolution() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.8, delay: 0.1 }}
           >
-            for-civil-disputes-property-litigation-cheque-bounce-fir-complaint-guidance
+            for civil disputes, property litigation, cheque bounce, fir, complaint guidance
           </motion.p>
         </div>
 
@@ -54,17 +54,6 @@ export default function DisputeResolution() {
                   <li>Mediation and Negotiation to avoid court</li>
                   <li>Recovering Money Owed (Debt Recovery)</li>
                   <li>Stopping Unfair Actions (Injunctions)</li>
-                </ul>
-              </div>
-
-              <div className={styles.sidebarSection}>
-                <h3 className={styles.sidebarTitle}>Why Choose Us</h3>
-                <ul className={styles.servicesList}>
-                  <li><strong>30 Years</strong> of Courtroom Experience</li>
-                  <li><strong>Strong, Clear</strong> Legal Strategy</li>
-                  <li><strong>Ability</strong> to Handle Complex Cases</li>
-                  <li><strong>Focus</strong> on Fast and Effective Solutions</li>
-                  <li><strong>Decisive</strong> Results for Your Case</li>
                 </ul>
               </div>
             </motion.aside>

@@ -33,7 +33,7 @@ export default function FamilyLegalSupport() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.8, delay: 0.1 }}
           >
-            for-court-marriage-marriage-registration-family-settlements-adoption-deeds
+            for court marriage, marriage registration, family settlements, adoption deeds
           </motion.p>
         </div>
 
@@ -54,17 +54,6 @@ export default function FamilyLegalSupport() {
                   <li>Financial Support (Maintenance and Alimony)</li>
                   <li>Protection from Domestic Violence</li>
                   <li>Drafting of Wills and Settling Inheritance</li>
-                </ul>
-              </div>
-
-              <div className={styles.sidebarSection}>
-                <h3 className={styles.sidebarTitle}>Why Choose Us</h3>
-                <ul className={styles.servicesList}>
-                  <li><strong>Caring</strong> and Confidential Support</li>
-                  <li><strong>Experienced</strong> in Protecting Children's Interests</li>
-                  <li><strong>Clear</strong> Explanations of Your Legal Rights</li>
-                  <li><strong>Focus</strong> on Fair and Timely Resolutions</li>
-                  <li><strong>Your</strong> Best Interest is Always Our Priority.</li>
                 </ul>
               </div>
             </motion.aside>

@@ -33,7 +33,7 @@ export default function LegalDrafting() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.8, delay: 0.1 }}
           >
-            for-agreements-affidavits-authority-letters-wills-partnership-deeds
+            for agreements, affidavits, authority letters, wills, partnership deeds
           </motion.p>
         </div>
 
@@ -54,17 +54,6 @@ export default function LegalDrafting() {
                   <li>Creating Partnership and Joint Venture Agreements</li>
                   <li>Protecting Business Secrets (NDAs)</li>
                   <li>Reviewing Your Existing Legal Papers</li>
-                </ul>
-              </div>
-
-              <div className={styles.sidebarSection}>
-                <h3 className={styles.sidebarTitle}>Why Choose Us</h3>
-                <ul className={styles.servicesList}>
-                  <li><strong>Accurate</strong> Drafting to Avoid Mistakes</li>
-                  <li><strong>Documents</strong> that Clearly Protect Your Interests</li>
-                  <li><strong>Custom-Made</strong> for Your Specific Needs</li>
-                  <li><strong>Fast</strong> and Reliable Completion</li>
-                  <li><strong>Reduces</strong> the Risk of Future Legal Problems</li>
                 </ul>
               </div>
             </motion.aside>

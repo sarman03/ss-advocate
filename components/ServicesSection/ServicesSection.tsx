@@ -51,7 +51,7 @@ export default function ServicesSection() {
             <div className={styles.cardContent}>
               <div className={styles.cardText}>
                 <h3 className={styles.cardTitle}>Property & Registration Services</h3>
-                <p className={styles.cardDescription}>for-registry-sale-deed-gift-deed-poa-title-verification-mutation</p>
+                <p className={styles.cardDescription}>for registry, sale deed, gift deed, poa, title verification, mutation</p>
               </div>
               <div className={styles.cardArrow}>→</div>
             </div>
@@ -64,7 +64,7 @@ export default function ServicesSection() {
             <div className={styles.cardContent}>
               <div className={styles.cardText}>
                 <h3 className={styles.cardTitle}>Family & Personal Legal Support</h3>
-                <p className={styles.cardDescription}>for-court-marriage-marriage-registration-family-settlements-adoption-deeds</p>
+                <p className={styles.cardDescription}>for court marriage, marriage registration, family settlements, adoption deeds</p>
               </div>
               <div className={styles.cardArrow}>→</div>
             </div>
@@ -77,7 +77,7 @@ export default function ServicesSection() {
             <div className={styles.cardContent}>
               <div className={styles.cardText}>
                 <h3 className={styles.cardTitle}>Legal Drafting & Documentation</h3>
-                <p className={styles.cardDescription}>for-agreements-affidavits-authority-letters-wills-partnership-deeds</p>
+                <p className={styles.cardDescription}>for agreements, affidavits, authority letters, wills, partnership deeds</p>
               </div>
               <div className={styles.cardArrow}>→</div>
             </div>
