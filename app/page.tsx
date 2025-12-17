@@ -1,6 +1,7 @@
 'use client';
 
 import Navbar from '@/components/Navbar/Navbar';
+import LegalTeamSection from '@/components/LegalTeamSection/LegalTeamSection';
 import ServicesSection from '@/components/ServicesSection/ServicesSection';
 import CTASection from '@/components/CTASection/CTASection';
 import ApproachSection from '@/components/ApproachSection/ApproachSection';
@@ -58,8 +59,9 @@ export default function Home() {
             </motion.div>
           </div>
         </div>
-        <ServicesSection />
+        <LegalTeamSection />
         <CTASection />
+        <ServicesSection />
         <ApproachSection />
         <JourneySection />
         <WhyChooseUsSection />
