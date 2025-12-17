@@ -416,6 +416,11 @@
     padding: 4rem 1.5rem;
   }
 
+  .journeyContainer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   .journeyTitle {
     font-size: 2rem;
   }
@@ -477,5 +482,11 @@
 
   .advocateName {
     font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 480px){
+  .principlesImg{
+    object-fit: contain;
   }
 }

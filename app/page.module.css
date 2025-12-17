@@ -123,10 +123,19 @@
   .hero {
     padding: 0 1rem;
     background-size: cover;
+    background-image: url('/home/464474433_1016912996789029_1729701147534778075_n.jpg');
+    justify-content: center;
+  }
+
+  .hero::before {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
   }
 
   .heroContent {
-    padding-top: 120px;
+    padding-top: 100px;
+    margin-top: 10px;
+    justify-content: center;
   }
 
   .heroTitle {

@@ -1,0 +1,118 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 1.5rem;
+  padding: 3rem 2.5rem;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+}
+
+.content {
+  margin-bottom: 2rem;
+}
+
+.content p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+  margin: 0 0 1rem 0;
+}
+
+.content p:last-child {
+  margin-bottom: 0;
+  font-weight: 500;
+  color: #000;
+}
+
+.content strong {
+  font-weight: 600;
+  color: #000;
+}
+
+.acceptButton {
+  width: 100%;
+  background-color: #000;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.acceptButton:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.acceptButton:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .modal {
+    padding: 2rem 1.5rem;
+    max-width: 500px;
+  }
+
+  .title {
+    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .content p {
+    font-size: 0.95rem;
+  }
+
+  .acceptButton {
+    padding: 0.875rem 1.75rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal {
+    padding: 1.75rem 1.25rem;
+    border-radius: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .content p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  .acceptButton {
+    padding: 0.875rem 1.5rem;
+  }
+}

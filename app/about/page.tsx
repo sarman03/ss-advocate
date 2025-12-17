@@ -48,7 +48,7 @@ export default function About() {
               <p className={styles.sectionLabel}>Our journey</p>
               <h2 className={styles.journeyTitle}>Three Decades of Dedicated Advocacy</h2>
               <p className={styles.journeyText}>
-                Since 1995, S.S Advocates has been dedicated to upholding the rule of law and providing uncompromising legal representation. What began as a commitment to fairness has evolved into a practice defined by specialized expertise, trust, and a passion for securing clients' rights across diverse jurisdictions.
+                Since 2000, S.S Advocates has been dedicated to upholding the rule of law and providing uncompromising legal representation. What began as a commitment to fairness has evolved into a practice defined by specialized expertise, trust, and a passion for securing clients' rights across diverse jurisdictions.
               </p>
             </motion.div>
             <motion.div

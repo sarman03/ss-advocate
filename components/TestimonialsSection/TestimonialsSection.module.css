@@ -201,8 +201,13 @@
   }
 
   .testimonialCard {
-    min-width: 320px;
-    padding: 2rem;
+    min-width: 280px;
+    max-width: 320px;
+    padding: 1.75rem;
+  }
+
+  .testimonialText {
+    font-size: 0.875rem;
   }
 }
 
@@ -224,11 +229,36 @@
   }
 
   .testimonialCard {
-    min-width: 280px;
-    padding: 1.5rem;
+    min-width: 240px;
+    max-width: 260px;
+    padding: 1.25rem;
+    gap: 1rem;
   }
 
   .testimonialText {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .authorImage {
+    width: 44px;
+    height: 44px;
+  }
+
+  .authorName {
+    font-size: 0.9rem;
+  }
+
+  .authorTitle {
+    font-size: 0.8rem;
+  }
+
+  .star {
+    font-size: 1rem;
+  }
+
+  .carouselWrapper::before,
+  .carouselWrapper::after {
+    width: 80px;
   }
 }
