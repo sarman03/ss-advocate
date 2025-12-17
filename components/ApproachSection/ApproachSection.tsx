@@ -37,23 +37,6 @@ export default function ApproachSection() {
         >
           <div className={styles.imageWrapper}>
             <img src="/home/services page/img4.jpg" alt="Professional lawyer" className={styles.lawyerImage} />
-            <div className={styles.statsCard}>
-              <div className={styles.statsHeader}>
-                <ChartIcon />
-                <span className={styles.statsLabel}>Case Resolution Rate</span>
-                <span className={styles.statsValue}>+30%</span>
-              </div>
-              <div className={styles.chart}>
-                <div className={styles.bar} style={{ height: '40%' }}></div>
-                <div className={styles.bar} style={{ height: '55%' }}></div>
-                <div className={styles.bar} style={{ height: '50%' }}></div>
-                <div className={styles.bar} style={{ height: '60%' }}></div>
-                <div className={styles.bar} style={{ height: '65%' }}></div>
-                <div className={styles.bar} style={{ height: '80%' }}></div>
-                <div className={styles.bar} style={{ height: '85%' }}></div>
-                <div className={styles.bar} style={{ height: '100%' }}></div>
-              </div>
-            </div>
           </div>
         </motion.div>
 

@@ -122,6 +122,10 @@
     gap: 1rem;
   }
 
+  .teamImage{
+    object-fit: contain;
+  }
+
   .imageWrapper {
     height: 350px;
   }

@@ -190,21 +190,30 @@
     bottom: 1.5rem;
     left: 10%;
     transform: translateX(-50%);
-    gap: 1rem;
-    max-width: 20%;
-    width: 20%;
+    gap: 0.5rem;
+    max-width: 15%;
+    width: 15%;
   }
 
   .statCard {
     width: 100%;
     margin: 0 !important;
-    padding: 1.5rem;
+    padding: 0.75rem 0.5rem;
   }
 
   .statCard:first-child,
   .statCard:last-child {
     margin-bottom: 0 !important;
     margin-top: 0 !important;
+  }
+
+  .statNumber {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .statLabel {
+    font-size: 0.5rem;
   }
 
   .consultationButton {
@@ -221,7 +230,17 @@
     font-size: 1.75rem;
   }
 
+  .statCard {
+    padding: 0.5rem 0.35rem;
+    min-width: 150px;
+  }
+
   .statNumber {
-    font-size: 2.5rem;
+    font-size: 1.25rem;
+    margin-bottom: 0.15rem;
+  }
+
+  .statLabel {
+    font-size: 0.45rem;
   }
 }
