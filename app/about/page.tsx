@@ -31,6 +31,10 @@ export default function About() {
             whileInView={fadeInUp.animate}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.8, delay: 0.2 }}
+            onClick={() => {
+              // Open Google review form directly
+              window.open('https://search.google.com/local/writereview?placeid=ChIJLYf_i9XlDDkRHVXESyFAym4', '_blank');
+            }}
           >
             Leave a Review
           </motion.button>
