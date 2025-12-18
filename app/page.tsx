@@ -50,12 +50,17 @@ export default function Home() {
               animate={fadeInUp.animate}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <a href="mailto:advocatess98@gmail.com" className={styles.primaryButton}>
+              <a
+                href="https://wa.me/919310722384"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.primaryButton}
+              >
                 Book an Appointment
               </a>
-              <button className={styles.secondaryButton}>
+              <a href="/contact" className={styles.secondaryButton}>
                 Contact page
-              </button>
+              </a>
             </motion.div>
           </div>
         </div>
