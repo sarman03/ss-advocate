@@ -175,7 +175,7 @@ export default function About() {
 
               <div className={styles.advocateCard}>
                 <div className={styles.advocateImage}>
-                  <img src="/about/team/sunil.jpeg" alt="Sunil Dutt Singh" className={styles.advocateImg} />
+                  <img src="/about/team/sunilnew.jpeg" alt="Sunil Dutt Singh" className={styles.advocateImg} />
                 </div>
                 <h3 className={styles.advocateName}>Sunil Dutt Singh</h3>
                 <p className={styles.advocateTitle}>Advocate</p>

@@ -36,7 +36,7 @@ export default function ApproachSection() {
           transition={{ duration: 0.8 }}
         >
           <div className={styles.imageWrapper}>
-            <img src="/home/services page/img4.jpg" alt="Professional lawyer" className={styles.lawyerImage} />
+            <img src="/home/services page/new.jpg" alt="Professional lawyer" className={styles.lawyerImage} />
           </div>
         </motion.div>
 
