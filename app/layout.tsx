@@ -12,6 +12,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.ssadvocatesnoida.com'),
   title: "S.S. Advocates Law Firm | Expert Legal Services & Consultation",
   description: "Dedicated legal advocate with 30 years of experience providing strategic counsel. We offer property registration, family law, legal drafting, dispute resolution, and consultation services.",
   keywords: [
