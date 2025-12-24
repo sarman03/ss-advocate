@@ -91,7 +91,7 @@
 .carouselTrack {
   display: flex;
   gap: 2rem;
-  animation: scroll 30s linear infinite;
+  animation: scroll 20s linear infinite;
 }
 
 .carouselTrack:hover {
